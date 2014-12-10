@@ -11,4 +11,4 @@ Built with Zurb Foundation 5. Initial version based on this [Frozen Ridge demo](
 - More semantic market and default copy
 
 
-![screenshot](katel.github.com/project-launch/screenshot.png)
+![screenshot](screenshot.png)
