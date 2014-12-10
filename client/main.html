@@ -5,14 +5,18 @@
 </head>
 
 <body>
+  {{#if currentUser}}
+  {{> admin}}
 
-  {{> main }} {{> footer}}
+
+  {{else}}   {{> main }}  {{/if}}
+
+  {{> footer}}
 
 </body>
 
 <template name="main">
-
-  {{#if currentUser}} {{> admin}} {{else}} {{> signup}} {{/if}}
+  {{> signup}}
   <div class="row">
     <div class="large-10 large-centered columns" id="our-story">
       <h2>A bit about us</h2>
