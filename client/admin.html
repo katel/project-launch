@@ -1,0 +1,21 @@
+<template name="admin">
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Signed up Customers</h3>
+      <table>
+        <tr>
+          <th>Customer Email</th>
+          <th>Referrer</th>
+          <th>Time</th>
+        </tr>
+        {{#each emails}}
+        <tr>
+          <td>{{ this.email }}</td>
+          <td>{{ this.referrer }}</td>
+          <td>{{ this.timestamp }}</td>
+        </tr>
+        {{/each }}
+      </table>
+    </div>
+  </div>
+</template>

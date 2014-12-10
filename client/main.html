@@ -1,0 +1,38 @@
+<head>
+  <title>Project launch</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  {{> main }} {{> footer}}
+
+</body>
+
+<template name="main">
+
+  {{#if currentUser}} {{> admin}} {{else}} {{> signup}} {{/if}}
+  <div class="row">
+    <div class="large-10 large-centered columns" id="our-story">
+      <h2>A bit about us</h2>
+      <p class="intro">Hi, we are the people who built this brand new thing and this is why we built it. And, yeah, we've got value propositions for you.</p>
+    </div>
+  </div>
+
+  <div class="row" id="value-propositions">
+    <div class="small-12 large-4 columns">
+      <h3><i class="fi-heart"></i>
+    Benefit 1</h3>
+    </div>
+
+    <div class="small-12 large-4 columns">
+      <h3><i class="fi-mobile-signal"></i>
+    Benefit 2</h3>
+    </div>
+    <div class="small-12 large-4 columns">
+      <h3><i class="fi-anchor"></i>
+      Benefit 3</h3>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,22 @@
+<template name="footer">
+  <footer>
+    <div class="row">
+      <div class="large-12 columns">
+        <a href="#">Launch page | All about your new project</a>
+        {{#if isAdmin}} | <a href="#" class="admin">toggle admin</a>
+        {{/if}} | {{> loginButtons}}
+      </div>
+    </div>
+  </footer>
+</template>
+
+
+
+
+
+
+<template name="badEmail">
+  <div class="error">
+    <p>That's not a real email address...</p>
+  </div>
+</template>

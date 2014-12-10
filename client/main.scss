@@ -1,0 +1,98 @@
+@import ".meteor/local/build/programs/server/assets/packages/matthew_foundation5-sass/_foundation";
+
+// outline your colour scheme here:
+$header: #eb5f3a;
+$darkgrey: #333333;
+$linkcolour: #eb5f3a;
+$lightcolour: #f3f3f3;
+$brightcolour: #F05155;
+$notsobrightcolour: #D1433F;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.call-to-action-section {
+  background: url(/images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2em 0;
+  color: $lightcolour;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+
+}
+h1 {
+  color: $darkgrey;
+}
+
+.main-title {
+  font-size: 3.157em;
+  color: $lightcolour;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
+.phrasing {
+
+}
+.phra-sing {
+font-size: 1.618em;
+line-height: 0.9;
+}
+.phrasin-g {
+  font-size: 2.618em;
+  line-height: 0.8;
+
+}
+
+.subtitle {
+  color: $lightcolour;
+
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  font-family: 'Roboto Slab', serif;
+}
+a{
+  color: $linkcolour;
+}
+
+.top-bar{
+  background: $darkgrey;
+}
+
+.call-to-action-section {
+  background: $brightcolour;
+}
+
+.button, button {
+  background: $notsobrightcolour;
+}
+
+.button:hover, button:hover {
+  background: #6F818F;
+}
+
+#our-story {
+  text-align: center;
+  padding: 2.25rem 0;
+}
+
+#value-propositions {
+  text-align: center;
+  font-size: 1.46rem;
+}
+
+.footer, footer {
+  background: $darkgrey;
+  color: $lightcolour;
+}
