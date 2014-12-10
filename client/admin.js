@@ -1,5 +1,5 @@
 // Twitter account usernames of admin users
-var ADMIN_USERS = ['katelomax'];
+var ADMIN_USERS = ['your twitter user name goes here'];
 
 Template.admin.helpers({
   emails: function() {
