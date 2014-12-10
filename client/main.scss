@@ -2,97 +2,109 @@
 
 // outline your colour scheme here:
 $header: #eb5f3a;
-$darkgrey: #333333;
+$darkgrey: #333;
 $linkcolour: #eb5f3a;
 $lightcolour: #f3f3f3;
-$brightcolour: #F05155;
-$notsobrightcolour: #D1433F;
+$brightcolour: #f05155;
+$notsobrightcolour: #d1433f;
 
 body {
   font-family: 'Roboto', sans-serif;
-}
 
+}
 .call-to-action-section {
-  background: url(/images/background.jpg) no-repeat center center fixed;
+  -moz-background-size   : cover;
+  -o-background-size     : cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 2em 0;
-  color: $lightcolour;
+  background             : url("/images/background.jpg") no-repeat center center fixed;
+  background-size        : cover;
+  color                  : $lightcolour;
+  padding                : 2em 0;
 
 }
-
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Roboto', sans-serif;
 
 }
 h1 {
   color: $darkgrey;
-}
 
+}
 .main-title {
-  font-size: 3.157em;
   color: $lightcolour;
-  padding-top: 0;
-  margin-top: 0;
   font-family: 'Roboto Slab', serif;
+  font-size: 3.157em;
+  margin-top: 0;
+  padding-top: 0;
+
 }
-
-
-
 .phrasing {
+
 
 }
 .phra-sing {
-font-size: 1.618em;
-line-height: 0.9;
+  font-size: 1.618em;
+  line-height: 0.9;
 }
 .phrasin-g {
   font-size: 2.618em;
   line-height: 0.8;
 
 }
-
 .subtitle {
   color: $lightcolour;
-
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-style: italic;
+  font-size: 1.333em;
   font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-a{
+a {
   color: $linkcolour;
-}
 
-.top-bar{
+}
+.top-bar {
   background: $darkgrey;
-}
 
+}
 .call-to-action-section {
   background: $brightcolour;
-}
 
-.button, button {
+}
+.button,
+button {
   background: $notsobrightcolour;
-}
 
-.button:hover, button:hover {
-  background: #6F818F;
 }
+.button:hover,
+button:hover {
+  background: #6f818f;
 
+}
 #our-story {
+  padding   : 2.25rem 0;
   text-align: center;
-  padding: 2.25rem 0;
-}
 
+}
 #value-propositions {
-  text-align: center;
   font-size: 1.46rem;
-}
+  text-align: center;
 
-.footer, footer {
+}
+.footer,
+footer {
   background: $darkgrey;
   color: $lightcolour;
 }
+
+
+@media only screen and (max-width: 40em) {
+  .main-title {
+    font-size:2.369em;
+  }
+ }
